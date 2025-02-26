@@ -15,17 +15,20 @@ This project implements image-based steganography to hide secret messages within
      python encrypt.py
      
  Enter the secret message and a passcode when prompted.
+ 
  The encrypted image (encryptedImage.jpg) will be saved in the same folder.
  ## Decrypt the Hidden Message
  ### Run the decryption script:
    python decrypt.py
    
- Enter the correct passcode to retrieve the hidden message.
+Enter the correct passcode to retrieve the hidden message.
 
    
  ## Security Features
  **Passcode Protection** – Only users with the correct passcode can decrypt the message.
+ 
  **Pixel Manipulation** – The message is stored in the image’s RGB values.
+ 
  **Automatic Message Retrieval** – No need to manually enter message length.
 
  ## License
