@@ -3,20 +3,24 @@ This project implements image-based steganography to hide secret messages within
 
 # Technologies Used
 **Python** – Main programming language
+
 **OpenCV (cv2)** – For image processing
+
 **OS & File Handling** – To manage encryption, decryption, and passcode storage
 
 # How to Run the Project
  ## Encrypt a Message into an Image
   Place your image (e.g., mypic.jpeg) in the project folder.
-  ### Run the encryption script:
+ ### Run the encryption script:
      python encrypt.py
-    Enter the secret message and a passcode when prompted.
-    The encrypted image (encryptedImage.jpg) will be saved in the same folder.
+     
+ Enter the secret message and a passcode when prompted.
+ The encrypted image (encryptedImage.jpg) will be saved in the same folder.
  ## Decrypt the Hidden Message
-  ### Run the decryption script:
+ ### Run the decryption script:
    python decrypt.py
-   Enter the correct passcode to retrieve the hidden message.
+   
+ Enter the correct passcode to retrieve the hidden message.
 
    
  ## Security Features
