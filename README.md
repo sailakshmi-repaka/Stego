@@ -19,7 +19,7 @@ This project implements image-based steganography to hide secret messages within
  The encrypted image (encryptedImage.jpg) will be saved in the same folder.
  ## Decrypt the Hidden Message
  ### Run the decryption script:
-   python decrypt.py
+     python decrypt.py
    
 Enter the correct passcode to retrieve the hidden message.
 
